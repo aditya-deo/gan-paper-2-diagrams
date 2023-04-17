@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T02:50:50.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="I40tCaLFdc4UUyXYoU-5" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T02:51:09.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="w8l3weBDn5-YcxYSPpLP" version="21.1.8" type="github">
   <diagram name="Page-1" id="onjwb0JKYa4-4VWLuJun">
     <mxGraphModel dx="1100" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
         <mxCell id="0ODJR2t6Mu53_vlMCUhQ-21" value="Image data" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="670" y="30" width="350" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0ODJR2t6Mu53_vlMCUhQ-22" value="Use Data" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="0ODJR2t6Mu53_vlMCUhQ-22" value="User Data" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="670" y="200" width="350" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0ODJR2t6Mu53_vlMCUhQ-23" value="Discriminator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
