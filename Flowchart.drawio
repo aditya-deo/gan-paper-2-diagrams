@@ -1,23 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T01:22:06.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4F9PT9S1yUDJAUhc4b5s" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T01:30:38.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Y86wfO-jvVZIPS0Kr9mv" version="21.1.8" type="github">
   <diagram name="Page-1" id="Et9ieoYarkX6nhCRH8Cg">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NLN-9L0Z86SyIu5LshTe-1" value="User uploads the image from the frontend." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="194" y="60" width="220" height="30" as="geometry" />
+        <mxCell id="qBIkexbNVtXw4DDreOew-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLN-9L0Z86SyIu5LshTe-1" target="NLN-9L0Z86SyIu5LshTe-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NLN-9L0Z86SyIu5LshTe-2" value="Convert to the 8-bit grayscale format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="194" y="120" width="220" height="30" as="geometry" />
+        <mxCell id="NLN-9L0Z86SyIu5LshTe-1" value="User uploads the image from the frontend." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="60" width="146" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NLN-9L0Z86SyIu5LshTe-3" value="Grayscale image converted into a string representation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="194" y="180" width="220" height="30" as="geometry" />
+        <mxCell id="qBIkexbNVtXw4DDreOew-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLN-9L0Z86SyIu5LshTe-2" target="NLN-9L0Z86SyIu5LshTe-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NLN-9L0Z86SyIu5LshTe-4" value="Compress String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="194" y="240" width="220" height="30" as="geometry" />
+        <mxCell id="NLN-9L0Z86SyIu5LshTe-2" value="Convert to the 8-bit grayscale format" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="231" y="120" width="146" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NLN-9L0Z86SyIu5LshTe-5" value="Store string in DB along with other data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="194" y="300" width="220" height="30" as="geometry" />
+        <mxCell id="qBIkexbNVtXw4DDreOew-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLN-9L0Z86SyIu5LshTe-3" target="NLN-9L0Z86SyIu5LshTe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLN-9L0Z86SyIu5LshTe-3" value="Grayscale image converted into a string representation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="228" y="180" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLN-9L0Z86SyIu5LshTe-4" target="NLN-9L0Z86SyIu5LshTe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLN-9L0Z86SyIu5LshTe-4" value="Compress String" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="228" y="240" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLN-9L0Z86SyIu5LshTe-5" target="qBIkexbNVtXw4DDreOew-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NLN-9L0Z86SyIu5LshTe-5" value="Store string in DB along with other data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="228" y="300" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBIkexbNVtXw4DDreOew-1" target="qBIkexbNVtXw4DDreOew-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-1" value="Retrieve Compresses String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBIkexbNVtXw4DDreOew-2" target="qBIkexbNVtXw4DDreOew-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-2" value="Decompress String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBIkexbNVtXw4DDreOew-3" target="qBIkexbNVtXw4DDreOew-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-3" value="Convert to Grayscale Array" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qBIkexbNVtXw4DDreOew-4" target="qBIkexbNVtXw4DDreOew-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-4" value="Pass through Generator to get Colorized Image" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-6" value="Display Colorized Image to User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
