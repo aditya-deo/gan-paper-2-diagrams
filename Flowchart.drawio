@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T01:30:38.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Y86wfO-jvVZIPS0Kr9mv" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T01:31:52.598Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="20UGsOFZTYyTueangmil" version="21.1.8" type="github">
   <diagram name="Page-1" id="Et9ieoYarkX6nhCRH8Cg">
     <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,12 @@
         </mxCell>
         <mxCell id="qBIkexbNVtXw4DDreOew-6" value="Display Colorized Image to User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-16" value="&lt;h1 style=&quot;font-size: 15px;&quot;&gt;Storage&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="272" y="340" width="64" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qBIkexbNVtXw4DDreOew-17" value="&lt;h1 style=&quot;font-size: 15px;&quot;&gt;Retrieval&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="436.5" y="340" width="77" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
